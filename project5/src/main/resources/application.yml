@@ -1,0 +1,12 @@
+Spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/flute_code
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 12345
+
+
+server:
+  port: 8082
+  servlet:
+    context-path: /api/v1/myapp
